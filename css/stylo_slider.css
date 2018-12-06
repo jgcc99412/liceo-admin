@@ -1,0 +1,46 @@
+*{
+    
+}
+ul,ol{
+    list-style: none;
+    
+}
+.slider{
+    width: 90%;
+    position: relative;
+    
+}
+.sli li, ul{
+    width: 90%;
+}
+.sli li img{
+    width: 90%;
+}
+.pagination{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.pagination li{
+    font-size: 20px;
+    margin: 2px 5px;
+    color: darkslateblue
+}
+.left, .right{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: darkslateblue;
+    font-size: 40px;
+}
+.left{
+    left: 45px;
+}
+.right{
+    right: 320px;
+}
